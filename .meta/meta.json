@@ -17,9 +17,9 @@
   },
   "ecc90fea-8398-4b7d-81b3-d99511da8abb": {
     "gitAppName": "test1",
-    "lastCommitMessage": "Version v2 Created of app test1",
+    "lastCommitMessage": " v2 Version of app test1 promoted from development to staging",
     "gitVersionId": "18438722-6fc2-4008-be81-56d68eac3a3d",
-    "lastpushDate": "2024-10-24T05:46:05.392Z",
+    "lastpushDate": "2024-10-24T05:46:30.109Z",
     "gitVersionName": "v2",
     "lastCommitUser": "mani "
   }

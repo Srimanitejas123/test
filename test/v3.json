@@ -36,10 +36,10 @@
             "showViewerNavigation": true,
             "homePageId": "b9ccc921-927a-4560-b1a9-c0710c8e18a0",
             "appId": "f5a3cec7-d221-4883-b3cd-201ba2f11e11",
-            "currentEnvironmentId": "03aad49e-4535-4103-bfcb-8d6c31d8ce76",
+            "currentEnvironmentId": "e30e50aa-8e1d-4992-b444-71176c75c055",
             "promotedFrom": null,
             "createdAt": "2024-10-25T06:27:54.135Z",
-            "updatedAt": "2024-10-25T06:27:54.125Z"
+            "updatedAt": "2024-10-25T08:53:39.716Z"
           },
           "components": [
             {
@@ -275,17 +275,6 @@
               "updatedAt": "2024-10-25T06:27:54.125Z",
               "layouts": [
                 {
-                  "id": "dec1e443-2f07-4ea2-9ee4-bb5130e0bfd9",
-                  "type": "desktop",
-                  "top": 60,
-                  "left": 8,
-                  "width": 35,
-                  "height": 456,
-                  "componentId": "7f7bc4d6-4275-43d0-adfc-39bb826d1474",
-                  "dimensionUnit": "count",
-                  "updatedAt": "2024-10-25T06:27:54.125Z"
-                },
-                {
                   "id": "277eb201-bd33-4447-8b99-2b44a9612f92",
                   "type": "mobile",
                   "top": 130,
@@ -295,6 +284,17 @@
                   "componentId": "7f7bc4d6-4275-43d0-adfc-39bb826d1474",
                   "dimensionUnit": "count",
                   "updatedAt": "2024-10-25T06:27:54.125Z"
+                },
+                {
+                  "id": "dec1e443-2f07-4ea2-9ee4-bb5130e0bfd9",
+                  "type": "desktop",
+                  "top": 60,
+                  "left": 8,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "7f7bc4d6-4275-43d0-adfc-39bb826d1474",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-10-25T06:36:35.729Z"
                 }
               ]
             }
@@ -339,10 +339,10 @@
               "showViewerNavigation": true,
               "homePageId": "b9ccc921-927a-4560-b1a9-c0710c8e18a0",
               "appId": "f5a3cec7-d221-4883-b3cd-201ba2f11e11",
-              "currentEnvironmentId": "03aad49e-4535-4103-bfcb-8d6c31d8ce76",
+              "currentEnvironmentId": "e30e50aa-8e1d-4992-b444-71176c75c055",
               "promotedFrom": null,
               "createdAt": "2024-10-25T06:27:54.135Z",
-              "updatedAt": "2024-10-25T06:27:54.125Z"
+              "updatedAt": "2024-10-25T08:53:39.716Z"
             }
           ],
           "appEnvironments": [

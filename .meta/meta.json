@@ -25,10 +25,10 @@
   },
   "f5a3cec7-d221-4883-b3cd-201ba2f11e11": {
     "gitAppName": "test",
-    "lastCommitMessage": " v6\\ Version of app test promoted from development to staging",
-    "gitVersionId": "dbb99d6c-8aba-42b5-944c-df8620587585",
-    "lastpushDate": "2024-10-25T11:28:15.324Z",
-    "gitVersionName": "v6\\",
+    "lastCommitMessage": " v7 Version of app test promoted from development to staging",
+    "gitVersionId": "cd0e4cac-d5d3-4346-abe9-99ddaa858c8f",
+    "lastpushDate": "2024-10-25T11:31:20.827Z",
+    "gitVersionName": "v7",
     "lastCommitUser": "mani "
   }
 }

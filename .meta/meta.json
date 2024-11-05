@@ -78,5 +78,13 @@
     "lastpushDate": "2024-11-05T05:46:59.940Z",
     "gitVersionName": "v2",
     "lastCommitUser": " manis"
+  },
+  "ea2114df-6034-450f-867f-616871ba5a10": {
+    "gitAppName": "jhgv",
+    "lastCommitMessage": " v1 Version of app jhgv promoted from development to staging",
+    "gitVersionId": "f0592659-49ee-4274-ac64-05a9657d42fa",
+    "lastpushDate": "2024-11-05T05:50:04.612Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": " manis"
   }
 }

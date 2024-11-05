@@ -1,0 +1,2291 @@
+{
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "type": "front-end",
+          "id": "52d3f059-238f-45b2-8ccd-86ad0d772b4f",
+          "name": "Sample app  ",
+          "slug": "52d3f059-238f-45b2-8ccd-86ad0d772b4f",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": "floppydisk",
+          "organizationId": "9e2c47a6-70f0-4409-9a0e-dfbc7dcffcca",
+          "currentVersionId": null,
+          "userId": "411e33f1-2602-4a49-81e3-0813e71e1679",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2024-11-05T05:06:40.568Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2024-11-05T05:06:40.679Z",
+          "editingVersion": {
+            "id": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": false,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": ""
+            },
+            "pageSettings": null,
+            "showViewerNavigation": true,
+            "homePageId": "f2813142-0781-4067-83e6-6602f8113e09",
+            "appId": "52d3f059-238f-45b2-8ccd-86ad0d772b4f",
+            "currentEnvironmentId": "e29076d2-1c2f-40d7-9db8-a30880d1bfd4",
+            "promotedFrom": null,
+            "createdAt": "2024-11-05T05:06:40.578Z",
+            "updatedAt": "2024-11-05T05:07:34.331Z"
+          },
+          "components": [
+            {
+              "id": "3853e8e8-1973-46c6-9632-364f944f90fa",
+              "name": "container1",
+              "type": "Container",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": null,
+              "properties": {},
+              "general": {},
+              "styles": {
+                "borderColor": {
+                  "value": "#9b9b9b4d"
+                },
+                "borderRadius": {
+                  "value": "10"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:06:40.580Z",
+              "layouts": [
+                {
+                  "id": "d89b0cb3-662e-4e6f-92d1-03fd7b496537",
+                  "type": "desktop",
+                  "top": 120,
+                  "left": 1,
+                  "width": 41,
+                  "height": 780,
+                  "componentId": "3853e8e8-1973-46c6-9632-364f944f90fa",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "8b476cb9-303d-47e2-9986-5b750952b247",
+                  "type": "mobile",
+                  "top": 70,
+                  "left": 25,
+                  "width": 5,
+                  "height": 200,
+                  "componentId": "3853e8e8-1973-46c6-9632-364f944f90fa",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "fd6a075a-bc50-49ff-99e6-a7a8e597ec43",
+              "name": "text2",
+              "type": "Text",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "3853e8e8-1973-46c6-9632-364f944f90fa",
+              "properties": {
+                "text": {
+                  "value": "This application is connected to a sample data source which is a shared resource. Hence, it may show varying data due to real-time updates. It's reset daily for some consistency, but please note it's designed for user exploration, not production use. \nYou can nagivate through each tab to view all tables."
+                },
+                "textFormat": {
+                  "value": "html"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textAlign": {
+                  "value": "left"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:06:40.580Z",
+              "layouts": [
+                {
+                  "id": "cff46252-1150-4667-870a-b3abbfde86a2",
+                  "type": "mobile",
+                  "top": 40,
+                  "left": 9,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "fd6a075a-bc50-49ff-99e6-a7a8e597ec43",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "d85168a3-d5f8-4251-86c1-51969bb75f4b",
+                  "type": "desktop",
+                  "top": 60,
+                  "left": 1,
+                  "width": 40,
+                  "height": 60,
+                  "componentId": "fd6a075a-bc50-49ff-99e6-a7a8e597ec43",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "11d55746-2a21-4040-8b24-177fba1b568b",
+              "name": "table3",
+              "type": "Table",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "9341d23c-8177-4fb8-9d8f-278d3e133585-1",
+              "properties": {
+                "data": {
+                  "value": "{{queries.orders_data.data}}"
+                },
+                "columns": {
+                  "value": [
+                    {
+                      "id": "39d553ba-a061-4d96-8b98-e01925a9ee60",
+                      "name": "row_id",
+                      "key": "row_id",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "2e0b3498-21d5-4d39-b3d3-54584bf1ecfc",
+                      "name": "order_id",
+                      "key": "order_id",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "cd98133d-7a23-4b05-a472-dc90ea73d7b6",
+                      "name": "order_date",
+                      "key": "order_date",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "e0b549ff-a36e-4f70-a115-e9406198adec",
+                      "name": "ship_date",
+                      "key": "ship_date",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "e5500a6f-cabb-4ac3-bdbe-3411e75350ed",
+                      "name": "ship_mode",
+                      "key": "ship_mode",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "477aa334-e4b4-4950-b188-17d39e6a660d",
+                      "name": "customer_id",
+                      "key": "customer_id",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "a2374e04-2f50-419f-b8f0-0e6932f91ac4",
+                      "name": "customer_name",
+                      "key": "customer_name",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "1f66af2a-f779-44e5-81aa-75e1d4f8801b",
+                      "name": "segment",
+                      "key": "segment",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "55575a93-ff11-44ff-866f-ccc118e85000",
+                      "name": "country",
+                      "key": "country",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "03ce7a96-6a91-4b1d-a5d4-b74cd1e52c36",
+                      "name": "city",
+                      "key": "city",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "867f55f4-baa2-4d27-971f-92cd3a4a04c5",
+                      "name": "state",
+                      "key": "state",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "23f470d1-77fc-4151-8184-404747985ccd",
+                      "name": "postal_code",
+                      "key": "postal_code",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "530731fe-54e2-4506-808a-41ec15c88e08",
+                      "name": "region",
+                      "key": "region",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "a5498db1-056a-41f9-84e7-abc0c862b97e",
+                      "name": "product_id",
+                      "key": "product_id",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "8ab0576b-e8a0-411c-a2fe-e711661870a8",
+                      "name": "category",
+                      "key": "category",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "0a432f84-bbee-4551-8f6f-e6d0758cad35",
+                      "name": "sub_category",
+                      "key": "sub_category",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "bcbc3e76-c9e8-411d-909d-e1c6b826137c",
+                      "name": "product_name",
+                      "key": "product_name",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "33a4369c-55ac-4755-99fe-ceb01757695c",
+                      "name": "sales",
+                      "key": "sales",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "0dc1d5c6-d231-41f5-bd16-30de80ae53f0",
+                      "name": "quantity",
+                      "key": "quantity",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "2b082e6d-0fe1-4d21-ab3a-5f01fddb5aa7",
+                      "name": "discount",
+                      "key": "discount",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "578d0a86-564a-491d-9d25-cec77e17cf84",
+                      "name": "profit",
+                      "key": "profit",
+                      "columnType": "string",
+                      "autogenerated": true
+                    }
+                  ]
+                },
+                "title": {
+                  "value": "Table"
+                },
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "useDynamicColumn": {
+                  "value": "{{false}}"
+                },
+                "columnData": {
+                  "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+                },
+                "rowsPerPage": {
+                  "value": "{{10}}"
+                },
+                "serverSidePagination": {
+                  "value": "{{false}}"
+                },
+                "enableNextButton": {
+                  "value": "{{true}}"
+                },
+                "enablePrevButton": {
+                  "value": "{{true}}"
+                },
+                "totalRecords": {
+                  "value": "{{10}}"
+                },
+                "enablePagination": {
+                  "value": "{{true}}"
+                },
+                "serverSideSort": {
+                  "value": "{{false}}"
+                },
+                "serverSideFilter": {
+                  "value": "{{false}}"
+                },
+                "displaySearchBox": {
+                  "value": "{{true}}"
+                },
+                "showDownloadButton": {
+                  "value": "{{true}}"
+                },
+                "showFilterButton": {
+                  "value": "{{true}}"
+                },
+                "autogenerateColumns": {
+                  "value": true,
+                  "generateNestedColumns": true
+                },
+                "isAllColumnsEditable": {
+                  "value": "{{false}}"
+                },
+                "showBulkUpdateActions": {
+                  "value": "{{true}}"
+                },
+                "showBulkSelector": {
+                  "value": "{{false}}"
+                },
+                "highlightSelectedRow": {
+                  "value": "{{false}}"
+                },
+                "columnSizes": {
+                  "value": "{{({})}}"
+                },
+                "actions": {
+                  "value": []
+                },
+                "enabledSort": {
+                  "value": "{{true}}"
+                },
+                "hideColumnSelectorButton": {
+                  "value": "{{false}}"
+                },
+                "defaultSelectedRow": {
+                  "value": "{{{\"id\":1}}}"
+                },
+                "showAddNewRowButton": {
+                  "value": "{{true}}"
+                },
+                "allowSelection": {
+                  "value": "{{true}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000"
+                },
+                "columnHeaderWrap": {
+                  "value": "fixed"
+                },
+                "actionButtonRadius": {
+                  "value": "0"
+                },
+                "cellSize": {
+                  "value": "regular"
+                },
+                "borderRadius": {
+                  "value": "8"
+                },
+                "tableType": {
+                  "value": "table-classic"
+                },
+                "maxRowHeight": {
+                  "value": "auto"
+                },
+                "maxRowHeightValue": {
+                  "value": "{{0}}"
+                },
+                "contentWrap": {
+                  "value": "{{true}}"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "padding": {
+                  "value": "default"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:35.616Z",
+              "layouts": [
+                {
+                  "id": "5e77bb77-0424-4ea3-9a24-bba9316843e3",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 6,
+                  "width": 67.11627906976744,
+                  "height": 456,
+                  "componentId": "11d55746-2a21-4040-8b24-177fba1b568b",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "d1b4c4c3-0cf1-4097-bb04-6435c8fcfbcf",
+                  "type": "desktop",
+                  "top": 45,
+                  "left": 1,
+                  "width": 41,
+                  "height": 800,
+                  "componentId": "11d55746-2a21-4040-8b24-177fba1b568b",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "c95a711a-1167-4f81-bbab-4a8a3d62c498",
+              "name": "table2",
+              "type": "Table",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "9341d23c-8177-4fb8-9d8f-278d3e133585-0",
+              "properties": {
+                "data": {
+                  "value": "{{queries.country_data.data}}"
+                },
+                "columns": {
+                  "value": [
+                    {
+                      "id": "02fb5505-815f-4edc-8339-21b04738d724",
+                      "name": "country",
+                      "key": "country",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "f4101a59-b948-44ae-9ef0-428ea45a4527",
+                      "name": "area_sq_km",
+                      "key": "area_sq_km",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "b01e33a7-ca9f-4845-808a-30bd797f6eaf",
+                      "name": "population",
+                      "key": "population",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "9ed0bc84-8461-4be2-8398-49f1029976d8",
+                      "name": "exports",
+                      "key": "exports",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "6827b288-9b5e-4d5c-8cde-adb6d7029fd5",
+                      "name": "imports",
+                      "key": "imports",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "5124945f-a4d4-4ae7-b60d-83c49f7de1f4",
+                      "name": "gdp",
+                      "key": "gdp",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "18e4d1fe-9b6d-440a-9405-64d73be2e781",
+                      "name": "gdp_per_capita",
+                      "key": "gdp_per_capita",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "25272887-2b36-421a-829e-9bb368beea10",
+                      "name": "gdp_real_growth_rate",
+                      "key": "gdp_real_growth_rate",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "a5df71fe-a14a-4639-96d9-acf919499b8f",
+                      "name": "inflation_rate_consumer_prices",
+                      "key": "inflation_rate_consumer_prices",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "14a0ea0a-5270-4d1e-9fd1-ebccf923f808",
+                      "name": "labor_force",
+                      "key": "labor_force",
+                      "columnType": "string",
+                      "autogenerated": true
+                    }
+                  ]
+                },
+                "title": {
+                  "value": "Table"
+                },
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "useDynamicColumn": {
+                  "value": "{{false}}"
+                },
+                "columnData": {
+                  "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+                },
+                "rowsPerPage": {
+                  "value": "{{10}}"
+                },
+                "serverSidePagination": {
+                  "value": "{{false}}"
+                },
+                "enableNextButton": {
+                  "value": "{{true}}"
+                },
+                "enablePrevButton": {
+                  "value": "{{true}}"
+                },
+                "totalRecords": {
+                  "value": "{{10}}"
+                },
+                "enablePagination": {
+                  "value": "{{true}}"
+                },
+                "serverSideSort": {
+                  "value": "{{false}}"
+                },
+                "serverSideFilter": {
+                  "value": "{{false}}"
+                },
+                "displaySearchBox": {
+                  "value": "{{true}}"
+                },
+                "showDownloadButton": {
+                  "value": "{{true}}"
+                },
+                "showFilterButton": {
+                  "value": "{{true}}"
+                },
+                "autogenerateColumns": {
+                  "value": true,
+                  "generateNestedColumns": true
+                },
+                "isAllColumnsEditable": {
+                  "value": "{{false}}"
+                },
+                "showBulkUpdateActions": {
+                  "value": "{{true}}"
+                },
+                "showBulkSelector": {
+                  "value": "{{false}}"
+                },
+                "highlightSelectedRow": {
+                  "value": "{{false}}"
+                },
+                "columnSizes": {
+                  "value": "{{({})}}"
+                },
+                "actions": {
+                  "value": []
+                },
+                "enabledSort": {
+                  "value": "{{true}}"
+                },
+                "hideColumnSelectorButton": {
+                  "value": "{{false}}"
+                },
+                "defaultSelectedRow": {
+                  "value": "{{{\"id\":1}}}"
+                },
+                "showAddNewRowButton": {
+                  "value": "{{true}}"
+                },
+                "allowSelection": {
+                  "value": "{{true}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000"
+                },
+                "columnHeaderWrap": {
+                  "value": "fixed"
+                },
+                "actionButtonRadius": {
+                  "value": "0"
+                },
+                "cellSize": {
+                  "value": "regular"
+                },
+                "borderRadius": {
+                  "value": "8"
+                },
+                "tableType": {
+                  "value": "table-classic"
+                },
+                "maxRowHeight": {
+                  "value": "auto"
+                },
+                "maxRowHeightValue": {
+                  "value": "{{0}}"
+                },
+                "contentWrap": {
+                  "value": "{{true}}"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "padding": {
+                  "value": "default"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:35.047Z",
+              "layouts": [
+                {
+                  "id": "f8f8f72a-c21a-41ed-975d-0148c461f9d8",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 6,
+                  "width": 67.11627906976744,
+                  "height": 456,
+                  "componentId": "c95a711a-1167-4f81-bbab-4a8a3d62c498",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "0e4934b0-7618-4e64-abbe-4c0455a9d398",
+                  "type": "desktop",
+                  "top": 45,
+                  "left": 1,
+                  "width": 41,
+                  "height": 800,
+                  "componentId": "c95a711a-1167-4f81-bbab-4a8a3d62c498",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "9341d23c-8177-4fb8-9d8f-278d3e133585",
+              "name": "tabs1",
+              "type": "Tabs",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "3853e8e8-1973-46c6-9632-364f944f90fa",
+              "properties": {
+                "tabs": {
+                  "value": "{{[ \n\t\t{ title: 'Countries', id: '0' }, \n\t\t{ title: 'Orders', id: '1' }, \n\t\t{ title: 'Organizations', id: '2' } ,\n    { title: 'Product', id: '3' } ,\n    { title: 'Users', id: '4' } \n ]}}"
+                }
+              },
+              "general": {},
+              "styles": {},
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:06:40.580Z",
+              "layouts": [
+                {
+                  "id": "e3375218-a065-4ab7-ba1f-f08f84c458bc",
+                  "type": "mobile",
+                  "top": 180,
+                  "left": 10,
+                  "width": 69.76744186046511,
+                  "height": 300,
+                  "componentId": "9341d23c-8177-4fb8-9d8f-278d3e133585",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "70ed0a13-7812-4119-9fd9-cf61f4372505",
+                  "type": "desktop",
+                  "top": 144,
+                  "left": 1,
+                  "width": 40,
+                  "height": 760,
+                  "componentId": "9341d23c-8177-4fb8-9d8f-278d3e133585",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "c3451e7f-54a4-4b52-8bce-042d69b53e65",
+              "name": "table4",
+              "type": "Table",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "9341d23c-8177-4fb8-9d8f-278d3e133585-2",
+              "properties": {
+                "data": {
+                  "value": "{{queries.organization_data.data}}"
+                },
+                "columns": {
+                  "value": [
+                    {
+                      "name": "name",
+                      "id": "5d2a3744a006388aadd012fcc15cc0dbcb5f9130e0fbb64c558561c97118754a",
+                      "autogenerated": true,
+                      "fxActiveFields": []
+                    },
+                    {
+                      "id": "ab6eeaec-80fc-4d10-a787-4ee9c75804ac",
+                      "name": "index",
+                      "key": "index",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "701f06b7-2caa-47a0-9906-5f0ac881aa51",
+                      "name": "organization_id",
+                      "key": "organization_id",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "59ae70e2-a43c-424b-b04f-19470e65dd54",
+                      "name": "website",
+                      "key": "website",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "8da370d8-d256-4a5f-9109-9c1a586e2e73",
+                      "name": "country",
+                      "key": "country",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "47accf0b-6ee7-40ee-990e-924aa71a315b",
+                      "name": "description",
+                      "key": "description",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "2368f536-419d-479f-90e6-58d35d8c7bbe",
+                      "name": "founded",
+                      "key": "founded",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "4334c7d1-aae7-494c-9e53-b43698d4ced0",
+                      "name": "industry",
+                      "key": "industry",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "01e46d08-fb99-42d8-a69c-48a9578182c4",
+                      "name": "number_of_employees",
+                      "key": "number_of_employees",
+                      "columnType": "string",
+                      "autogenerated": true
+                    }
+                  ]
+                },
+                "title": {
+                  "value": "Table"
+                },
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "useDynamicColumn": {
+                  "value": "{{false}}"
+                },
+                "columnData": {
+                  "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+                },
+                "rowsPerPage": {
+                  "value": "{{10}}"
+                },
+                "serverSidePagination": {
+                  "value": "{{false}}"
+                },
+                "enableNextButton": {
+                  "value": "{{true}}"
+                },
+                "enablePrevButton": {
+                  "value": "{{true}}"
+                },
+                "totalRecords": {
+                  "value": "{{10}}"
+                },
+                "enablePagination": {
+                  "value": "{{true}}"
+                },
+                "serverSideSort": {
+                  "value": "{{false}}"
+                },
+                "serverSideFilter": {
+                  "value": "{{false}}"
+                },
+                "displaySearchBox": {
+                  "value": "{{true}}"
+                },
+                "showDownloadButton": {
+                  "value": "{{true}}"
+                },
+                "showFilterButton": {
+                  "value": "{{true}}"
+                },
+                "autogenerateColumns": {
+                  "value": true,
+                  "generateNestedColumns": true
+                },
+                "isAllColumnsEditable": {
+                  "value": "{{false}}"
+                },
+                "showBulkUpdateActions": {
+                  "value": "{{true}}"
+                },
+                "showBulkSelector": {
+                  "value": "{{false}}"
+                },
+                "highlightSelectedRow": {
+                  "value": "{{false}}"
+                },
+                "columnSizes": {
+                  "value": "{{({})}}"
+                },
+                "actions": {
+                  "value": []
+                },
+                "enabledSort": {
+                  "value": "{{true}}"
+                },
+                "hideColumnSelectorButton": {
+                  "value": "{{false}}"
+                },
+                "defaultSelectedRow": {
+                  "value": "{{{\"id\":1}}}"
+                },
+                "showAddNewRowButton": {
+                  "value": "{{true}}"
+                },
+                "allowSelection": {
+                  "value": "{{true}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000"
+                },
+                "columnHeaderWrap": {
+                  "value": "fixed"
+                },
+                "actionButtonRadius": {
+                  "value": "0"
+                },
+                "cellSize": {
+                  "value": "regular"
+                },
+                "borderRadius": {
+                  "value": "8"
+                },
+                "tableType": {
+                  "value": "table-classic"
+                },
+                "maxRowHeight": {
+                  "value": "auto"
+                },
+                "maxRowHeightValue": {
+                  "value": "{{0}}"
+                },
+                "contentWrap": {
+                  "value": "{{true}}"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "padding": {
+                  "value": "default"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:35.552Z",
+              "layouts": [
+                {
+                  "id": "acbf556a-b860-4d8c-9bbd-24942cab3d43",
+                  "type": "desktop",
+                  "top": 45,
+                  "left": 1,
+                  "width": 41,
+                  "height": 800,
+                  "componentId": "c3451e7f-54a4-4b52-8bce-042d69b53e65",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "43abef7d-ad63-425a-97a6-f291396926d4",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 6,
+                  "width": 67.11627906976744,
+                  "height": 456,
+                  "componentId": "c3451e7f-54a4-4b52-8bce-042d69b53e65",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "4dc07897-ffa1-42b5-9801-c5cfd95b821c",
+              "name": "table5",
+              "type": "Table",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "9341d23c-8177-4fb8-9d8f-278d3e133585-3",
+              "properties": {
+                "data": {
+                  "value": "{{queries.product_list.data}}"
+                },
+                "columns": {
+                  "value": [
+                    {
+                      "id": "a988ec08-c444-42ec-ae17-4e83473789ee",
+                      "name": "car",
+                      "key": "car",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "ae0f27bd-b3c4-4292-b3a2-948812e1b159",
+                      "name": "mpg",
+                      "key": "mpg",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "bf8f4228-d9fc-4262-844f-e2156a3efc1e",
+                      "name": "cylinders",
+                      "key": "cylinders",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "ee0cb1a1-5c17-4127-87b2-cb92ac5dd74c",
+                      "name": "displacement",
+                      "key": "displacement",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "64c048db-063a-4be8-9547-3c8724e671ea",
+                      "name": "horsepower",
+                      "key": "horsepower",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "ee146990-d341-4a1d-905d-247fe9353226",
+                      "name": "weight",
+                      "key": "weight",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "c1b1a0a9-b97b-4908-be35-ee310aa7a534",
+                      "name": "acceleration",
+                      "key": "acceleration",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "dd8b8a7e-aea8-478f-b458-c0198c360fb5",
+                      "name": "model",
+                      "key": "model",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "5397b46a-3287-4c78-a391-1a0fbce56957",
+                      "name": "origin",
+                      "key": "origin",
+                      "columnType": "string",
+                      "autogenerated": true
+                    }
+                  ]
+                },
+                "title": {
+                  "value": "Table"
+                },
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "useDynamicColumn": {
+                  "value": "{{false}}"
+                },
+                "columnData": {
+                  "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+                },
+                "rowsPerPage": {
+                  "value": "{{10}}"
+                },
+                "serverSidePagination": {
+                  "value": "{{false}}"
+                },
+                "enableNextButton": {
+                  "value": "{{true}}"
+                },
+                "enablePrevButton": {
+                  "value": "{{true}}"
+                },
+                "totalRecords": {
+                  "value": "{{10}}"
+                },
+                "enablePagination": {
+                  "value": "{{true}}"
+                },
+                "serverSideSort": {
+                  "value": "{{false}}"
+                },
+                "serverSideFilter": {
+                  "value": "{{false}}"
+                },
+                "displaySearchBox": {
+                  "value": "{{true}}"
+                },
+                "showDownloadButton": {
+                  "value": "{{true}}"
+                },
+                "showFilterButton": {
+                  "value": "{{true}}"
+                },
+                "autogenerateColumns": {
+                  "value": true,
+                  "generateNestedColumns": true
+                },
+                "isAllColumnsEditable": {
+                  "value": "{{false}}"
+                },
+                "showBulkUpdateActions": {
+                  "value": "{{true}}"
+                },
+                "showBulkSelector": {
+                  "value": "{{false}}"
+                },
+                "highlightSelectedRow": {
+                  "value": "{{false}}"
+                },
+                "columnSizes": {
+                  "value": "{{({})}}"
+                },
+                "actions": {
+                  "value": []
+                },
+                "enabledSort": {
+                  "value": "{{true}}"
+                },
+                "hideColumnSelectorButton": {
+                  "value": "{{false}}"
+                },
+                "defaultSelectedRow": {
+                  "value": "{{{\"id\":1}}}"
+                },
+                "showAddNewRowButton": {
+                  "value": "{{true}}"
+                },
+                "allowSelection": {
+                  "value": "{{true}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000"
+                },
+                "columnHeaderWrap": {
+                  "value": "fixed"
+                },
+                "actionButtonRadius": {
+                  "value": "0"
+                },
+                "cellSize": {
+                  "value": "regular"
+                },
+                "borderRadius": {
+                  "value": "8"
+                },
+                "tableType": {
+                  "value": "table-classic"
+                },
+                "maxRowHeight": {
+                  "value": "auto"
+                },
+                "maxRowHeightValue": {
+                  "value": "{{0}}"
+                },
+                "contentWrap": {
+                  "value": "{{true}}"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "padding": {
+                  "value": "default"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:35.285Z",
+              "layouts": [
+                {
+                  "id": "cab2258a-5372-4af2-90b2-68c5e4abe9d5",
+                  "type": "desktop",
+                  "top": 45,
+                  "left": 1,
+                  "width": 41,
+                  "height": 800,
+                  "componentId": "4dc07897-ffa1-42b5-9801-c5cfd95b821c",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "4df482b9-54e5-4850-b85f-4ecf56435e2c",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 6,
+                  "width": 67.11627906976744,
+                  "height": 456,
+                  "componentId": "4dc07897-ffa1-42b5-9801-c5cfd95b821c",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "e1483843-4fe2-4dba-8f30-d8908c432602",
+              "name": "table7",
+              "type": "Table",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "9341d23c-8177-4fb8-9d8f-278d3e133585-4",
+              "properties": {
+                "data": {
+                  "value": "{{queries.user_data.data}}"
+                },
+                "columns": {
+                  "value": [
+                    {
+                      "name": "email",
+                      "id": "afc9a5091750a1bd4760e38760de3b4be11a43452ae8ae07ce2eebc569fe9a7f",
+                      "autogenerated": true,
+                      "fxActiveFields": []
+                    },
+                    {
+                      "id": "95a13542-a172-43ed-9d67-1c05f8314d09",
+                      "name": "first_name",
+                      "key": "first_name",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "b3d6da3a-b00a-461a-a153-934cabe00cdb",
+                      "name": "last_name",
+                      "key": "last_name",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "a0334565-402c-42af-8bc0-544fbf8f2b5d",
+                      "name": "company_name",
+                      "key": "company_name",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "f918726d-ea18-4227-b55a-4f54e295ea1c",
+                      "name": "address",
+                      "key": "address",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "f284c707-c6a2-4cd8-ad60-d1009f7f8ebf",
+                      "name": "city",
+                      "key": "city",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "a80b05b6-7c5b-45b1-9ec5-11fbe5fe2851",
+                      "name": "county",
+                      "key": "county",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "ab869ab2-c247-4eec-89e2-edc16f8fffcc",
+                      "name": "state",
+                      "key": "state",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "d928a311-a485-4aab-b810-611bd20832fd",
+                      "name": "zip",
+                      "key": "zip",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "b58c48ab-54fe-4360-b22e-fe4b067f02bf",
+                      "name": "phone1",
+                      "key": "phone1",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "afc82c97-929a-4cb5-9a37-7a9074705a73",
+                      "name": "phone2",
+                      "key": "phone2",
+                      "columnType": "string",
+                      "autogenerated": true
+                    },
+                    {
+                      "id": "37c04cbc-750f-453d-9fb8-1d9ebb3b862b",
+                      "name": "web",
+                      "key": "web",
+                      "columnType": "string",
+                      "autogenerated": true
+                    }
+                  ]
+                },
+                "title": {
+                  "value": "Table"
+                },
+                "visible": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{false}}"
+                },
+                "useDynamicColumn": {
+                  "value": "{{false}}"
+                },
+                "columnData": {
+                  "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+                },
+                "rowsPerPage": {
+                  "value": "{{10}}"
+                },
+                "serverSidePagination": {
+                  "value": "{{false}}"
+                },
+                "enableNextButton": {
+                  "value": "{{true}}"
+                },
+                "enablePrevButton": {
+                  "value": "{{true}}"
+                },
+                "totalRecords": {
+                  "value": "{{10}}"
+                },
+                "enablePagination": {
+                  "value": "{{true}}"
+                },
+                "serverSideSort": {
+                  "value": "{{false}}"
+                },
+                "serverSideFilter": {
+                  "value": "{{false}}"
+                },
+                "displaySearchBox": {
+                  "value": "{{true}}"
+                },
+                "showDownloadButton": {
+                  "value": "{{true}}"
+                },
+                "showFilterButton": {
+                  "value": "{{true}}"
+                },
+                "autogenerateColumns": {
+                  "value": true,
+                  "generateNestedColumns": true
+                },
+                "isAllColumnsEditable": {
+                  "value": "{{false}}"
+                },
+                "showBulkUpdateActions": {
+                  "value": "{{true}}"
+                },
+                "showBulkSelector": {
+                  "value": "{{false}}"
+                },
+                "highlightSelectedRow": {
+                  "value": "{{false}}"
+                },
+                "columnSizes": {
+                  "value": "{{({})}}"
+                },
+                "actions": {
+                  "value": []
+                },
+                "enabledSort": {
+                  "value": "{{true}}"
+                },
+                "hideColumnSelectorButton": {
+                  "value": "{{false}}"
+                },
+                "defaultSelectedRow": {
+                  "value": "{{{\"id\":1}}}"
+                },
+                "showAddNewRowButton": {
+                  "value": "{{true}}"
+                },
+                "allowSelection": {
+                  "value": "{{true}}"
+                },
+                "visibility": {
+                  "value": "{{true}}"
+                },
+                "disabledState": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000"
+                },
+                "columnHeaderWrap": {
+                  "value": "fixed"
+                },
+                "actionButtonRadius": {
+                  "value": "0"
+                },
+                "cellSize": {
+                  "value": "regular"
+                },
+                "borderRadius": {
+                  "value": "8"
+                },
+                "tableType": {
+                  "value": "table-classic"
+                },
+                "maxRowHeight": {
+                  "value": "auto"
+                },
+                "maxRowHeightValue": {
+                  "value": "{{0}}"
+                },
+                "contentWrap": {
+                  "value": "{{true}}"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000090"
+                },
+                "padding": {
+                  "value": "default"
+                }
+              },
+              "generalStyles": {
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                }
+              },
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:35.180Z",
+              "layouts": [
+                {
+                  "id": "6cbb6ef0-f00b-4aaa-8b64-b564657fdd5b",
+                  "type": "desktop",
+                  "top": 45,
+                  "left": 1,
+                  "width": 41,
+                  "height": 800,
+                  "componentId": "e1483843-4fe2-4dba-8f30-d8908c432602",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "6ab522c2-f7fe-42b4-a4a4-9d9a9b9f568d",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 6,
+                  "width": 67.11627906976744,
+                  "height": 456,
+                  "componentId": "e1483843-4fe2-4dba-8f30-d8908c432602",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "37128ef9-ec1a-4cc0-a259-45dd8e40219a",
+              "name": "text5",
+              "type": "Text",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "0c52d987-e6bb-4796-9805-f410c0d3a6f9",
+              "properties": {
+                "text": {
+                  "value": "Sample application"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#ffffffff",
+                  "fxActive": false
+                },
+                "textSize": {
+                  "value": "{{18}}"
+                },
+                "textAlign": {
+                  "value": "right"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:06:40.580Z",
+              "layouts": [
+                {
+                  "id": "8c52e859-99b2-4770-921a-ab4c889126dd",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 30,
+                  "width": 12,
+                  "height": 50,
+                  "componentId": "37128ef9-ec1a-4cc0-a259-45dd8e40219a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "a7325476-99c2-4ddb-b32d-51a92bb0048d",
+              "name": "text4",
+              "type": "Text",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "3853e8e8-1973-46c6-9632-364f944f90fa",
+              "properties": {
+                "text": {
+                  "value": "Sample database tables"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "20"
+                },
+                "fontStyle": {
+                  "value": "normal"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "textColor": {
+                  "value": "#3e63ddff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:06:40.580Z",
+              "layouts": [
+                {
+                  "id": "94b05cbd-333c-4238-ad5b-594888cdf0f7",
+                  "type": "mobile",
+                  "top": 30,
+                  "left": 16,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "a7325476-99c2-4ddb-b32d-51a92bb0048d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "d442af93-d490-4f1d-9f2d-323801db0afa",
+                  "type": "desktop",
+                  "top": 20,
+                  "left": 1,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "a7325476-99c2-4ddb-b32d-51a92bb0048d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "49a0d559-f87f-421a-83b6-ef70739187e8",
+              "name": "image1",
+              "type": "Image",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "0c52d987-e6bb-4796-9805-f410c0d3a6f9",
+              "properties": {
+                "source": {
+                  "value": "https://github.com/ToolJet/ToolJet/assets/127945292/d7c59282-2a44-483b-8de2-5da9b5f0b48d"
+                }
+              },
+              "general": {},
+              "styles": {},
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:06:40.580Z",
+              "layouts": [
+                {
+                  "id": "bf3e2958-07bf-4665-b22a-531942b51676",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 28,
+                  "width": 6.976744186046512,
+                  "height": 100,
+                  "componentId": "49a0d559-f87f-421a-83b6-ef70739187e8",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                },
+                {
+                  "id": "f4167bec-4260-4908-8172-e4870f3c69fd",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 1,
+                  "width": 2,
+                  "height": 50,
+                  "componentId": "49a0d559-f87f-421a-83b6-ef70739187e8",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "0c52d987-e6bb-4796-9805-f410c0d3a6f9",
+              "name": "container2",
+              "type": "Container",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": null,
+              "properties": {},
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#3e63ddff",
+                  "fxActive": false
+                },
+                "borderRadius": {
+                  "value": "10"
+                },
+                "borderColor": {
+                  "value": "#ffffff00",
+                  "fxActive": false
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:06:40.580Z",
+              "layouts": [
+                {
+                  "id": "03223023-4543-4230-a4bd-534c54979101",
+                  "type": "desktop",
+                  "top": 20,
+                  "left": 1,
+                  "width": 41,
+                  "height": 80,
+                  "componentId": "0c52d987-e6bb-4796-9805-f410c0d3a6f9",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            },
+            {
+              "id": "7c126734-c72c-431b-ba11-d1014afe5a34",
+              "name": "text3",
+              "type": "Text",
+              "pageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "parent": "0c52d987-e6bb-4796-9805-f410c0d3a6f9",
+              "properties": {
+                "text": {
+                  "value": " ToolJet"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#ffffffff"
+                },
+                "textSize": {
+                  "value": "{{24}}"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "letterSpacing": {
+                  "value": "{{0}}"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:06:40.580Z",
+              "layouts": [
+                {
+                  "id": "fcca94a0-fdc3-4a27-b8fc-acc6763a7a4f",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 3,
+                  "width": 6,
+                  "height": 50,
+                  "componentId": "7c126734-c72c-431b-ba11-d1014afe5a34",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-11-05T05:06:40.580Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "f2813142-0781-4067-83e6-6602f8113e09",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": false,
+              "hidden": false,
+              "icon": null,
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:06:41.269Z",
+              "autoComputeLayout": false,
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "pageGroupIndex": 1,
+              "pageGroupId": null,
+              "isPageGroup": false
+            }
+          ],
+          "events": [],
+          "dataQueries": [
+            {
+              "id": "35046cc4-01db-41fa-9793-1d6dcabc4f4c",
+              "name": "country_data",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "query": "SELECT * FROM public.sample_data_country_gdp\nLIMIT 100",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "1b077a21-91a7-4657-aeb3-703f2d725a07",
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:34.855Z"
+            },
+            {
+              "id": "7a9d887c-31d6-4801-89d6-012c50a580f6",
+              "name": "user_data",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "query": "SELECT * FROM public.sample_data_users\nLIMIT 100",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "1b077a21-91a7-4657-aeb3-703f2d725a07",
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:35.014Z"
+            },
+            {
+              "id": "9da2deb7-b5ab-4517-967c-5e5c2dd660a3",
+              "name": "product_list",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "query": "SELECT * FROM public.sample_data_product_cars\nLIMIT 100",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "1b077a21-91a7-4657-aeb3-703f2d725a07",
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:35.080Z"
+            },
+            {
+              "id": "46118639-51e2-4daf-b562-8d44cb086ca7",
+              "name": "organization_data",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "query": "SELECT * FROM public.sample_data_organizations\nLIMIT 100",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "1b077a21-91a7-4657-aeb3-703f2d725a07",
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:35.201Z"
+            },
+            {
+              "id": "e092363a-b7a6-4528-bc97-38f7a3332d97",
+              "name": "orders_data",
+              "options": {
+                "mode": "sql",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "query": "SELECT * FROM public.sample_data_orders\nLIMIT 100",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "1b077a21-91a7-4657-aeb3-703f2d725a07",
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "createdAt": "2024-11-05T05:06:40.580Z",
+              "updatedAt": "2024-11-05T05:07:35.303Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "f5e0f5e2-e840-43a5-83f2-1677ae8a5d63",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-11-05T05:06:40.584Z",
+              "updatedAt": "2024-11-05T05:06:40.584Z"
+            },
+            {
+              "id": "7c191130-31c4-4720-838e-3e200bc8b087",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-11-05T05:06:40.589Z",
+              "updatedAt": "2024-11-05T05:06:40.589Z"
+            },
+            {
+              "id": "bb3a73e7-fbc8-4bca-8a0c-f8ef5107fbbf",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-11-05T05:06:40.592Z",
+              "updatedAt": "2024-11-05T05:06:40.592Z"
+            },
+            {
+              "id": "090941ab-80a0-4c05-adea-96a6a0e09a29",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-11-05T05:06:40.596Z",
+              "updatedAt": "2024-11-05T05:06:40.596Z"
+            },
+            {
+              "id": "839137e1-2974-4bb8-aa28-6624fcb17c6d",
+              "name": "workflowsdefault",
+              "kind": "workflows",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-11-05T05:06:40.599Z",
+              "updatedAt": "2024-11-05T05:06:40.599Z"
+            },
+            {
+              "id": "1b077a21-91a7-4657-aeb3-703f2d725a07",
+              "name": "Sample data source",
+              "kind": "postgresql",
+              "type": "sample",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "9e2c47a6-70f0-4409-9a0e-dfbc7dcffcca",
+              "scope": "global",
+              "createdAt": "2024-11-05T04:46:16.240Z",
+              "updatedAt": "2024-11-05T04:46:16.240Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "a25f3ac3-365d-43a8-96dd-147488c2494b",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": false,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": ""
+              },
+              "pageSettings": null,
+              "showViewerNavigation": true,
+              "homePageId": "f2813142-0781-4067-83e6-6602f8113e09",
+              "appId": "52d3f059-238f-45b2-8ccd-86ad0d772b4f",
+              "currentEnvironmentId": "e29076d2-1c2f-40d7-9db8-a30880d1bfd4",
+              "promotedFrom": null,
+              "createdAt": "2024-11-05T05:06:40.578Z",
+              "updatedAt": "2024-11-05T05:07:34.331Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "2fc61042-bb72-4f33-8f01-ff331f6a43bb",
+              "organizationId": "9e2c47a6-70f0-4409-9a0e-dfbc7dcffcca",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-11-05T04:46:16.260Z",
+              "updatedAt": "2024-11-05T04:46:16.260Z"
+            },
+            {
+              "id": "67271502-ba2a-4a4b-b100-f685742695ad",
+              "organizationId": "9e2c47a6-70f0-4409-9a0e-dfbc7dcffcca",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-11-05T04:46:16.260Z",
+              "updatedAt": "2024-11-05T04:46:16.260Z"
+            },
+            {
+              "id": "e29076d2-1c2f-40d7-9db8-a30880d1bfd4",
+              "organizationId": "9e2c47a6-70f0-4409-9a0e-dfbc7dcffcca",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-11-05T04:46:16.260Z",
+              "updatedAt": "2024-11-05T04:46:16.260Z"
+            }
+          ],
+          "dataSourceOptions": [
+            {
+              "id": "92fefcf6-201c-4188-9185-0f686dbf4dbe",
+              "dataSourceId": "1b077a21-91a7-4657-aeb3-703f2d725a07",
+              "environmentId": "2fc61042-bb72-4f33-8f01-ff331f6a43bb",
+              "options": {
+                "host": {
+                  "credential_id": "645d2158-32a0-4288-a00c-d1bcadb0245c",
+                  "encrypted": true
+                },
+                "port": {
+                  "credential_id": "38ad0afa-5a92-46eb-88ed-1fcc25f0a45a",
+                  "encrypted": true
+                },
+                "database": {
+                  "value": "sample_db",
+                  "encrypted": false
+                },
+                "username": {
+                  "credential_id": "dec5e259-f066-4f4a-ad6b-dd4ee37da624",
+                  "encrypted": true
+                },
+                "password": {
+                  "credential_id": "12cc070a-c8b8-433b-a654-e700cab89211",
+                  "encrypted": true
+                },
+                "ssl_enabled": {
+                  "credential_id": "85d31d1e-648b-47df-aea7-55c19051ebb0",
+                  "encrypted": true
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                },
+                "connection_type": {
+                  "value": "manual",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-11-05T04:46:16.240Z",
+              "updatedAt": "2024-11-05T04:46:16.240Z"
+            },
+            {
+              "id": "8de129ac-6488-4d55-9928-0f1239aadff0",
+              "dataSourceId": "1b077a21-91a7-4657-aeb3-703f2d725a07",
+              "environmentId": "e29076d2-1c2f-40d7-9db8-a30880d1bfd4",
+              "options": {
+                "host": {
+                  "credential_id": "7584bf76-3273-485d-9a13-60f92d7f663a",
+                  "encrypted": true
+                },
+                "port": {
+                  "credential_id": "0b675232-e90f-4d72-b4d9-ee8ce5d4e204",
+                  "encrypted": true
+                },
+                "database": {
+                  "value": "sample_db",
+                  "encrypted": false
+                },
+                "username": {
+                  "credential_id": "ca59829b-8658-4c97-b224-79af121b5078",
+                  "encrypted": true
+                },
+                "password": {
+                  "credential_id": "62152d8c-e3f3-4720-872c-012766c638b6",
+                  "encrypted": true
+                },
+                "ssl_enabled": {
+                  "credential_id": "f23196fa-f2df-4259-bc70-d8b58d86cfa0",
+                  "encrypted": true
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                },
+                "connection_type": {
+                  "value": "manual",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-11-05T04:46:16.240Z",
+              "updatedAt": "2024-11-05T04:46:16.240Z"
+            },
+            {
+              "id": "a62b2442-2a65-4bff-adac-f406662c45cd",
+              "dataSourceId": "1b077a21-91a7-4657-aeb3-703f2d725a07",
+              "environmentId": "67271502-ba2a-4a4b-b100-f685742695ad",
+              "options": {
+                "host": {
+                  "credential_id": "06b39433-678c-41df-9448-692428f4e2bf",
+                  "encrypted": true
+                },
+                "port": {
+                  "credential_id": "a8b6fbd5-7226-4d51-873f-5ccbf8a14353",
+                  "encrypted": true
+                },
+                "database": {
+                  "value": "sample_db",
+                  "encrypted": false
+                },
+                "username": {
+                  "credential_id": "4e8ab64a-e7ac-4219-ab0f-9eb80428b99d",
+                  "encrypted": true
+                },
+                "password": {
+                  "credential_id": "a753f73a-9687-46f9-8aad-1f26b4bc67e9",
+                  "encrypted": true
+                },
+                "ssl_enabled": {
+                  "credential_id": "63fcbef4-5ad7-4cfa-9a25-daa7ff7a4842",
+                  "encrypted": true
+                },
+                "ssl_certificate": {
+                  "value": "none",
+                  "encrypted": false
+                },
+                "connection_type": {
+                  "value": "manual",
+                  "encrypted": false
+                }
+              },
+              "createdAt": "2024-11-05T04:46:16.240Z",
+              "updatedAt": "2024-11-05T04:46:16.240Z"
+            },
+            {
+              "id": "06855829-d5f2-4ed4-b97e-ab49a29e0f0f",
+              "dataSourceId": "f5e0f5e2-e840-43a5-83f2-1677ae8a5d63",
+              "environmentId": "2fc61042-bb72-4f33-8f01-ff331f6a43bb",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.588Z",
+              "updatedAt": "2024-11-05T05:06:40.588Z"
+            },
+            {
+              "id": "a6242c67-cb28-408f-9a19-643bdf2fc160",
+              "dataSourceId": "f5e0f5e2-e840-43a5-83f2-1677ae8a5d63",
+              "environmentId": "67271502-ba2a-4a4b-b100-f685742695ad",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.588Z",
+              "updatedAt": "2024-11-05T05:06:40.588Z"
+            },
+            {
+              "id": "0813c3a9-3d57-4e14-9344-224a03895e16",
+              "dataSourceId": "f5e0f5e2-e840-43a5-83f2-1677ae8a5d63",
+              "environmentId": "e29076d2-1c2f-40d7-9db8-a30880d1bfd4",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.588Z",
+              "updatedAt": "2024-11-05T05:06:40.588Z"
+            },
+            {
+              "id": "bc078c18-e857-4d82-89e5-5b7fc75f6801",
+              "dataSourceId": "7c191130-31c4-4720-838e-3e200bc8b087",
+              "environmentId": "2fc61042-bb72-4f33-8f01-ff331f6a43bb",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.591Z",
+              "updatedAt": "2024-11-05T05:06:40.591Z"
+            },
+            {
+              "id": "2ac104f8-048f-413f-b125-d5a1ac3dedc7",
+              "dataSourceId": "7c191130-31c4-4720-838e-3e200bc8b087",
+              "environmentId": "67271502-ba2a-4a4b-b100-f685742695ad",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.591Z",
+              "updatedAt": "2024-11-05T05:06:40.591Z"
+            },
+            {
+              "id": "62832e5b-7325-401a-ab57-b85589aecc8d",
+              "dataSourceId": "7c191130-31c4-4720-838e-3e200bc8b087",
+              "environmentId": "e29076d2-1c2f-40d7-9db8-a30880d1bfd4",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.591Z",
+              "updatedAt": "2024-11-05T05:06:40.591Z"
+            },
+            {
+              "id": "e4cdbf5b-8f3f-453e-8745-62b53c2bbc1e",
+              "dataSourceId": "bb3a73e7-fbc8-4bca-8a0c-f8ef5107fbbf",
+              "environmentId": "2fc61042-bb72-4f33-8f01-ff331f6a43bb",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.594Z",
+              "updatedAt": "2024-11-05T05:06:40.594Z"
+            },
+            {
+              "id": "66c7f78b-3f48-40f2-800e-a9034b301421",
+              "dataSourceId": "bb3a73e7-fbc8-4bca-8a0c-f8ef5107fbbf",
+              "environmentId": "67271502-ba2a-4a4b-b100-f685742695ad",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.594Z",
+              "updatedAt": "2024-11-05T05:06:40.594Z"
+            },
+            {
+              "id": "0e35701e-a1fc-4c3d-8a3b-bc6c2b39aa82",
+              "dataSourceId": "bb3a73e7-fbc8-4bca-8a0c-f8ef5107fbbf",
+              "environmentId": "e29076d2-1c2f-40d7-9db8-a30880d1bfd4",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.594Z",
+              "updatedAt": "2024-11-05T05:06:40.594Z"
+            },
+            {
+              "id": "3e1f15b5-014c-4b6b-9206-75edb9c64e56",
+              "dataSourceId": "090941ab-80a0-4c05-adea-96a6a0e09a29",
+              "environmentId": "2fc61042-bb72-4f33-8f01-ff331f6a43bb",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.598Z",
+              "updatedAt": "2024-11-05T05:06:40.598Z"
+            },
+            {
+              "id": "53c32ab1-58fe-4952-9c6b-8446e3879d54",
+              "dataSourceId": "090941ab-80a0-4c05-adea-96a6a0e09a29",
+              "environmentId": "67271502-ba2a-4a4b-b100-f685742695ad",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.598Z",
+              "updatedAt": "2024-11-05T05:06:40.598Z"
+            },
+            {
+              "id": "f9691eb9-5095-4a4f-9665-bbe55d9b8641",
+              "dataSourceId": "090941ab-80a0-4c05-adea-96a6a0e09a29",
+              "environmentId": "e29076d2-1c2f-40d7-9db8-a30880d1bfd4",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.598Z",
+              "updatedAt": "2024-11-05T05:06:40.598Z"
+            },
+            {
+              "id": "2966f5ca-d72c-4d03-ac08-b76db196af29",
+              "dataSourceId": "839137e1-2974-4bb8-aa28-6624fcb17c6d",
+              "environmentId": "2fc61042-bb72-4f33-8f01-ff331f6a43bb",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.600Z",
+              "updatedAt": "2024-11-05T05:06:40.600Z"
+            },
+            {
+              "id": "6a58a7d0-5ee8-421e-8cd9-e47b620cbccd",
+              "dataSourceId": "839137e1-2974-4bb8-aa28-6624fcb17c6d",
+              "environmentId": "67271502-ba2a-4a4b-b100-f685742695ad",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.600Z",
+              "updatedAt": "2024-11-05T05:06:40.600Z"
+            },
+            {
+              "id": "1ba376a3-1588-42b0-b1fb-aff1b3b8733d",
+              "dataSourceId": "839137e1-2974-4bb8-aa28-6624fcb17c6d",
+              "environmentId": "e29076d2-1c2f-40d7-9db8-a30880d1bfd4",
+              "options": null,
+              "createdAt": "2024-11-05T05:06:40.600Z",
+              "updatedAt": "2024-11-05T05:06:40.600Z"
+            }
+          ],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.0.0-ee-beta.3"
+}

@@ -70,5 +70,13 @@
     "lastpushDate": "2024-11-05T05:07:37.112Z",
     "gitVersionName": "v1",
     "lastCommitUser": "mani "
+  },
+  "e0a074cf-0a2d-4de7-8a6e-65eada753927": {
+    "gitAppName": "assfdg",
+    "lastCommitMessage": " v1 Version of app assfdg promoted from development to staging",
+    "gitVersionId": "523cc4e1-8bf0-4fcc-9d50-10a39bd1103c",
+    "lastpushDate": "2024-11-05T05:46:21.342Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": " manis"
   }
 }

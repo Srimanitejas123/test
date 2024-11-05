@@ -89,10 +89,10 @@
   },
   "88f2e3bc-755c-46d9-9886-b29c66dc8f4d": {
     "gitAppName": "jhgf",
-    "lastCommitMessage": " v1 Version of app jhgf promoted from development to staging",
-    "gitVersionId": "d51fc970-2a14-4223-90ae-ec2c9d099daf",
-    "lastpushDate": "2024-11-05T05:50:56.716Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": " v3 Version of app jhgf promoted from development to staging",
+    "gitVersionId": "ac44f347-ec68-40fe-b7c4-58cd8b3054cc",
+    "lastpushDate": "2024-11-05T05:53:03.692Z",
+    "gitVersionName": "v3",
     "lastCommitUser": " manis"
   }
 }

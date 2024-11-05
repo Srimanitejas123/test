@@ -73,10 +73,10 @@
   },
   "e0a074cf-0a2d-4de7-8a6e-65eada753927": {
     "gitAppName": "assfdg",
-    "lastCommitMessage": " v1 Version of app assfdg promoted from development to staging",
-    "gitVersionId": "523cc4e1-8bf0-4fcc-9d50-10a39bd1103c",
-    "lastpushDate": "2024-11-05T05:46:21.342Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": " v2 Version of app assfdg promoted from development to staging",
+    "gitVersionId": "c3f5ad7c-39a4-4341-98c3-e2f5e92c6d96",
+    "lastpushDate": "2024-11-05T05:46:59.940Z",
+    "gitVersionName": "v2",
     "lastCommitUser": " manis"
   }
 }

@@ -134,5 +134,13 @@
     "lastpushDate": "2024-11-08T09:48:59.640Z",
     "gitVersionName": "V2",
     "lastCommitUser": "qawderdvf "
+  },
+  "d493c55b-7102-455c-adc4-f466e240f76d": {
+    "gitAppName": "Sample app  ",
+    "lastCommitMessage": " v1 Version of app Sample app   promoted from development to staging",
+    "gitVersionId": "dfaef0d4-253d-42c4-9d0c-f2f1c7f7a3f8",
+    "lastpushDate": "2024-11-08T11:18:44.754Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "mani@tooljet.com "
   }
 }

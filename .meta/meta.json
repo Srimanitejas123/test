@@ -118,5 +118,13 @@
     "lastpushDate": "2024-11-06T07:20:45.785Z",
     "gitVersionName": "v4",
     "lastCommitUser": "mani@gmail.com "
+  },
+  "954cda5c-34d3-4e80-82d0-7add16e6fe3f": {
+    "gitAppName": "sadfd",
+    "lastCommitMessage": "App sadfd created",
+    "gitVersionId": "f88d7630-f4f9-4c63-a93e-8b1995da7b8f",
+    "lastpushDate": "2024-11-08T05:54:45.699Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "mani@tooljet.com "
   }
 }

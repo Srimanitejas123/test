@@ -11,13 +11,13 @@
           "isMaintenanceOn": false,
           "icon": "home",
           "organizationId": "f24d7bc1-4735-42ad-9210-692ae611bada",
-          "currentVersionId": "688b5c0e-f5bd-4684-b64d-f14c6eff61b1",
+          "currentVersionId": "148dee9f-789b-4e26-ac81-467ad033fe81",
           "userId": "c8ea5a74-bb08-4ca6-acaf-98f9f8667a70",
           "workflowApiToken": null,
           "workflowEnabled": false,
           "createdAt": "2024-11-08T09:46:53.953Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2024-11-08T09:48:45.310Z",
+          "updatedAt": "2024-11-08T11:19:37.452Z",
           "editingVersion": {
             "id": "148dee9f-789b-4e26-ac81-467ad033fe81",
             "name": "V2",
@@ -36,10 +36,10 @@
             "showViewerNavigation": true,
             "homePageId": "bd1b405f-a570-4ebb-b8fb-29f5a5f7e127",
             "appId": "b07a1252-4701-4837-bc10-f30081e5a3f0",
-            "currentEnvironmentId": "27ad04a2-dc1d-461c-8bea-80607c6dd9b7",
+            "currentEnvironmentId": "3c841405-3a29-45ae-a0fd-d8cc2650887b",
             "promotedFrom": null,
             "createdAt": "2024-11-08T09:48:55.838Z",
-            "updatedAt": "2024-11-08T09:48:55.830Z"
+            "updatedAt": "2024-11-08T11:19:34.948Z"
           },
           "components": [
             {
@@ -163,10 +163,10 @@
               "showViewerNavigation": true,
               "homePageId": "bd1b405f-a570-4ebb-b8fb-29f5a5f7e127",
               "appId": "b07a1252-4701-4837-bc10-f30081e5a3f0",
-              "currentEnvironmentId": "27ad04a2-dc1d-461c-8bea-80607c6dd9b7",
+              "currentEnvironmentId": "3c841405-3a29-45ae-a0fd-d8cc2650887b",
               "promotedFrom": null,
               "createdAt": "2024-11-08T09:48:55.838Z",
-              "updatedAt": "2024-11-08T09:48:55.830Z"
+              "updatedAt": "2024-11-08T11:19:34.948Z"
             }
           ],
           "appEnvironments": [

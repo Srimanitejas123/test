@@ -198,5 +198,13 @@
     "lastpushDate": "2024-11-10T10:30:53.013Z",
     "gitVersionName": "v1",
     "lastCommitUser": "mani@gmail.com "
+  },
+  "7ba8a335-e985-45ac-b88b-076785f28886": {
+    "gitAppName": "as",
+    "lastCommitMessage": "App as created",
+    "gitVersionId": "6b10f03e-058c-4e35-94c2-3bfe82dd522e",
+    "lastpushDate": "2024-11-10T13:02:20.452Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "mani@gmail.com "
   }
 }

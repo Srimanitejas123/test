@@ -169,10 +169,10 @@
   },
   "0c837497-a076-4fdd-be32-92910ba86047": {
     "gitAppName": "defrfg",
-    "lastCommitMessage": " v1 Version of app defrfg promoted from development to staging",
-    "gitVersionId": "f1bd1d15-756f-473f-bca3-e7b047e5a267",
-    "lastpushDate": "2024-11-10T07:56:08.433Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": "Version v2 Created of app defrfg",
+    "gitVersionId": "244f7129-82dc-46c4-a0b9-2907e547b9d9",
+    "lastpushDate": "2024-11-10T07:56:28.625Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "mani@gmail.com "
   }
 }

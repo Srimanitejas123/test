@@ -190,5 +190,13 @@
     "lastpushDate": "2024-11-10T08:12:41.006Z",
     "gitVersionName": "v1",
     "lastCommitUser": "mani@gmail.com "
+  },
+  "41d17bbb-f0d6-464b-898e-1fe1b0f83dd3": {
+    "gitAppName": "abc",
+    "lastCommitMessage": " v1 Version of app abc promoted from development to staging",
+    "gitVersionId": "672397ef-7ef7-4569-a46f-548c9542ed1d",
+    "lastpushDate": "2024-11-10T10:30:53.013Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "mani@gmail.com "
   }
 }

@@ -36,10 +36,10 @@
             "showViewerNavigation": true,
             "homePageId": "69aa76ec-45a9-4880-8347-2a80f8d3462e",
             "appId": "1471afd0-336f-4ff7-850a-38de1a6a9ef6",
-            "currentEnvironmentId": "f13ee5f4-ea80-4817-a981-1778ccc6a74d",
+            "currentEnvironmentId": "29a7b77c-8df5-413b-b85f-3b3cc428a2d6",
             "promotedFrom": null,
             "createdAt": "2024-11-11T04:22:29.797Z",
-            "updatedAt": "2024-11-11T04:22:29.764Z"
+            "updatedAt": "2024-11-11T04:34:00.973Z"
           },
           "components": [
             {
@@ -305,7 +305,7 @@
               },
               "validation": {},
               "createdAt": "2024-11-11T04:22:29.764Z",
-              "updatedAt": "2024-11-11T04:22:29.764Z",
+              "updatedAt": "2024-11-11T04:33:44.401Z",
               "layouts": [
                 {
                   "id": "139598ef-dab7-4168-bc2e-19154b26fc34",
@@ -351,8 +351,35 @@
             }
           ],
           "events": [],
-          "dataQueries": [],
-          "dataSources": [],
+          "dataQueries": [
+            {
+              "id": "e66a2d9f-5453-47a4-ad34-14466c5c62f9",
+              "name": "bigquery1",
+              "options": {
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "operation": "list_datasets"
+              },
+              "dataSourceId": "48c84d88-08f2-4246-8234-af1b034364a0",
+              "appVersionId": "1017ce85-6cdb-4531-aa2c-6c6529d140fe",
+              "createdAt": "2024-11-11T04:22:38.021Z",
+              "updatedAt": "2024-11-11T04:26:47.026Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "48c84d88-08f2-4246-8234-af1b034364a0",
+              "name": "bigquery",
+              "kind": "bigquery",
+              "type": "default",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "ef8aea2b-db97-4467-bacc-5ca67d0d8c23",
+              "scope": "global",
+              "createdAt": "2024-11-11T04:21:30.971Z",
+              "updatedAt": "2024-11-11T04:22:02.795Z"
+            }
+          ],
           "appVersions": [
             {
               "id": "1017ce85-6cdb-4531-aa2c-6c6529d140fe",
@@ -372,10 +399,10 @@
               "showViewerNavigation": true,
               "homePageId": "69aa76ec-45a9-4880-8347-2a80f8d3462e",
               "appId": "1471afd0-336f-4ff7-850a-38de1a6a9ef6",
-              "currentEnvironmentId": "f13ee5f4-ea80-4817-a981-1778ccc6a74d",
+              "currentEnvironmentId": "29a7b77c-8df5-413b-b85f-3b3cc428a2d6",
               "promotedFrom": null,
               "createdAt": "2024-11-11T04:22:29.797Z",
-              "updatedAt": "2024-11-11T04:22:29.764Z"
+              "updatedAt": "2024-11-11T04:34:00.973Z"
             }
           ],
           "appEnvironments": [
@@ -410,7 +437,47 @@
               "updatedAt": "2024-10-30T04:50:53.218Z"
             }
           ],
-          "dataSourceOptions": [],
+          "dataSourceOptions": [
+            {
+              "id": "b0f667ad-b8a4-46cd-98cd-fd7fd2d0f509",
+              "dataSourceId": "48c84d88-08f2-4246-8234-af1b034364a0",
+              "environmentId": "29a7b77c-8df5-413b-b85f-3b3cc428a2d6",
+              "options": {
+                "private_key": {
+                  "credential_id": "3bf1d503-0df2-4eaf-a3d7-8ce13a21e81e",
+                  "encrypted": true
+                }
+              },
+              "createdAt": "2024-11-11T04:21:30.981Z",
+              "updatedAt": "2024-11-11T04:21:30.996Z"
+            },
+            {
+              "id": "fc16cf51-4e6a-4c09-b59a-d24830689c5a",
+              "dataSourceId": "48c84d88-08f2-4246-8234-af1b034364a0",
+              "environmentId": "b3ccc24c-7a33-4938-8969-9a1b86587c9a",
+              "options": {
+                "private_key": {
+                  "credential_id": "86115976-2edc-4788-824f-171a67d5744e",
+                  "encrypted": true
+                }
+              },
+              "createdAt": "2024-11-11T04:21:30.981Z",
+              "updatedAt": "2024-11-11T04:21:30.987Z"
+            },
+            {
+              "id": "29987c8d-03b9-44e3-be7b-1e15a4b08fe7",
+              "dataSourceId": "48c84d88-08f2-4246-8234-af1b034364a0",
+              "environmentId": "f13ee5f4-ea80-4817-a981-1778ccc6a74d",
+              "options": {
+                "private_key": {
+                  "credential_id": "81de9d5d-6754-4ad5-ab54-deda003141cc",
+                  "encrypted": true
+                }
+              },
+              "createdAt": "2024-11-11T04:21:30.981Z",
+              "updatedAt": "2024-11-11T04:22:02.794Z"
+            }
+          ],
           "schemaDetails": {
             "multiPages": true,
             "multiEnv": true,

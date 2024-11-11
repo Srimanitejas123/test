@@ -254,5 +254,13 @@
     "lastpushDate": "2024-11-11T10:12:59.739Z",
     "gitVersionName": "v1",
     "lastCommitUser": "mani "
+  },
+  "e8311599-8495-4b05-a2e7-26d11d747a24": {
+    "gitAppName": "Sample app  1",
+    "lastCommitMessage": " v1 Version of app Sample app  1 promoted from development to staging",
+    "gitVersionId": "23900a69-96cd-48ed-8b40-25f26e58796e",
+    "lastpushDate": "2024-11-11T11:38:06.327Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "mani "
   }
 }

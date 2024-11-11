@@ -222,5 +222,13 @@
     "lastpushDate": "2024-11-11T04:10:03.813Z",
     "gitVersionName": "v2",
     "lastCommitUser": "mani "
+  },
+  "f1b6ec35-172d-400d-a2f5-93e6ba3de3ac": {
+    "gitAppName": "Bug tracker",
+    "lastCommitMessage": "App Bug tracker created",
+    "gitVersionId": "8849960d-1faa-410b-89fd-b5f8ca8b5499",
+    "lastpushDate": "2024-11-11T04:19:05.462Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "mani "
   }
 }

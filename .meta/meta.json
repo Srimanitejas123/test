@@ -270,5 +270,13 @@
     "lastpushDate": "2024-11-11T12:44:32.989Z",
     "gitVersionName": "v2",
     "lastCommitUser": "mani "
+  },
+  "93be2389-09d3-49a8-b12a-35e32975eee0": {
+    "gitAppName": "demo-export-1726117967245",
+    "lastCommitMessage": " v1 Version of app demo-export-1726117967245 promoted from development to staging",
+    "gitVersionId": "041a803a-bfab-4da1-b6bc-096d7d32b327",
+    "lastpushDate": "2024-11-12T08:24:11.810Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "mani "
   }
 }

@@ -5,7 +5,7 @@
         "appV2": {
           "type": "front-end",
           "id": "15b62eca-2fc3-4e0c-af22-0225b9db5b09",
-          "name": "dfdfvb",
+          "name": "ab123",
           "slug": "15b62eca-2fc3-4e0c-af22-0225b9db5b09",
           "isPublic": null,
           "isMaintenanceOn": false,
@@ -17,7 +17,7 @@
           "workflowEnabled": false,
           "createdAt": "2024-11-21T05:11:05.982Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2024-11-21T05:11:05.980Z",
+          "updatedAt": "2024-11-21T05:12:48.622Z",
           "editingVersion": {
             "id": "1270f18d-8533-4060-a8a0-e7cf04d24e5a",
             "name": "v1",

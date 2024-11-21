@@ -321,10 +321,10 @@
   },
   "15b62eca-2fc3-4e0c-af22-0225b9db5b09": {
     "gitAppName": "ab123",
-    "lastCommitMessage": " v1 Version of app ab123 promoted from development to staging",
-    "gitVersionId": "1270f18d-8533-4060-a8a0-e7cf04d24e5a",
-    "lastpushDate": "2024-11-21T05:14:37.560Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": "Version v2 Created of app ab123",
+    "gitVersionId": "6f01d3d1-347d-4a2f-b0c2-52eac18e95f9",
+    "lastpushDate": "2024-11-21T05:14:50.927Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "mani "
   }
 }
